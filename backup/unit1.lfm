@@ -1,8 +1,36 @@
 object Form1: TForm1
   Left = 447
-  Height = 327
+  Height = 313
   Top = 129
-  Width = 363
+  Width = 455
   Caption = 'Form1'
+  ClientHeight = 313
+  ClientWidth = 455
+  OnCreate = FormCreate
   LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 112
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'halo'
+    OnClick = button
+    TabOrder = 0
+  end
+  object eNama: TEdit
+    Left = 24
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 1
+    Text = 'eNama'
+  end
+  object Label1: TLabel
+    Left = 26
+    Height = 15
+    Top = 17
+    Width = 32
+    Caption = 'Nama'
+    ParentColor = False
+  end
 end
